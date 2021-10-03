@@ -57,6 +57,7 @@ def set_config(args, game):
     config["model"]["jumps"] = args.jumps
     config["model"]["dynamics_blocks"] = args.dynamics_blocks
     config["model"]["spr"] = args.spr
+    config["model"]["rqdia"] = args.rqdia
     config["model"]["noisy_nets"] = args.noisy_nets
     config["model"]["momentum_encoder"] = args.momentum_encoder
     config["model"]["shared_encoder"] = args.shared_encoder
